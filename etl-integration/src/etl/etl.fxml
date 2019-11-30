@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="500.0" maxWidth="700.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="etl.etlController">
+   <children>
+      <AnchorPane maxHeight="500.0" maxWidth="700.0" prefHeight="500.0" prefWidth="700.0">
+         <children>
+            <Button fx:id="btnExtract" layoutX="73.0" layoutY="145.0" mnemonicParsing="false" onAction="#openEtlConfig" prefHeight="96.0" prefWidth="129.0" text="Extract" />
+            <Button layoutX="215.0" layoutY="145.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="129.0" text="Transform" />
+            <Button layoutX="356.0" layoutY="145.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="129.0" text="Load" />
+            <Button fx:id="btnSourceSetup" layoutX="215.0" layoutY="259.0" mnemonicParsing="false" onAction="#openSourceSettings" prefHeight="96.0" prefWidth="129.0" text="Source Settings" />
+            <Button layoutX="356.0" layoutY="259.0" mnemonicParsing="false" onAction="#openDestinationSettings" prefHeight="96.0" prefWidth="129.0" text="Destination Settings" />
+            <Button layoutX="498.0" layoutY="145.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="129.0" text="Help?" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
